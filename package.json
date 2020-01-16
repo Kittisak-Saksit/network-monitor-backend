@@ -20,15 +20,20 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@google-cloud/firestore": "^3.4.0",
     "@nestjs/common": "^6.10.1",
     "@nestjs/core": "^6.10.1",
     "@nestjs/platform-express": "^6.7.2",
     "class-transformer": "^0.2.3",
     "class-validator": "^0.11.0",
+    "firebase-admin": "^8.8.0",
+    "moment": "^2.24.0",
+    "nest-schedule": "^0.6.4",
     "nodemon": "^2.0.1",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
-    "rxjs": "^6.5.3"
+    "rxjs": "^6.5.3",
+    "snmp-native": "^1.2.0"
   },
   "devDependencies": {
     "@nestjs/cli": "^6.9.0",
